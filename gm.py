@@ -13,7 +13,8 @@ class gm:
                 user = await self.client.fetch_user(fren)
                 await user.send(sys.argv[1])
                 print(f'\"{sys.argv[1]}\" sucessfully sent to {fren_name}')
-
+            await self.client.close()
+            
     def run(self):
         self.client.run(self.token)
 
