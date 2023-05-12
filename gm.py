@@ -18,24 +18,11 @@ class gm:
         self.client.run(self.token)
 
 frens = {
-        #Format
-        #Friend_id : "friend_name"
+        #Format: Friend_id : "friend_name"
         }
 
-"""
-Your discord authentication token
-Can be found with the following steps:
-    1. Open discord on a web browser
-    2. Open Developer console
-    3. Open Network tab
-    4. Reload the page
-    5. In the filter bar type "/api"
-    6. Click on different entries until you find one that has an 'authentication attribute', copy that token and use that below
-
-                                ***WARNING***
-    DO NOT share your token it can be used by someone to access your account
-"""
-TOKEN = "Your token ID here"
+#Your token ID here
+TOKEN = ""
 
 gm = gm(TOKEN, frens)
 gm.run()
