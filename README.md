@@ -19,7 +19,7 @@ pip install discord.py-self
 The script expects the friends' information in the following format:
 
 ```python
-friends = {
+frens = {
     "friend_id" : "friend_name",
     # add as many friends as you want
 }
@@ -36,7 +36,7 @@ To obtain your friend's ID, you need to follow these steps:
 5. Right-click on your friend's username.
 6. Click 'Copy ID'.
 
-The copied ID is what you will use as the `friend_id` in the `friends` dictionary.
+The copied ID is what you will use as the `friend_id` in the `frens` dictionary.
 
 ## Getting your Discord Token
 
