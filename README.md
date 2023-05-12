@@ -1,6 +1,6 @@
 # gm
 
-A simple and very TOS-following python script for saying: "gm" to your friends in Discord
+A simple and totally TOS-following python script for saying: "gm" to your friends in Discord
 
 ## Setup
 
