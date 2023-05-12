@@ -1,5 +1,6 @@
 # gm
-A simply and very TOS-following python script for saying: "gm"
+
+A simple and very TOS-following python script for saying: "gm"
 
 ## Setup
 
@@ -15,7 +16,7 @@ pip install discord.py-self
 
 ## Format
 
-The bot expects the friends' information in the following format:
+The script expects the friends' information in the following format:
 
 ```python
 friends = {
@@ -23,6 +24,19 @@ friends = {
     # add as many friends as you want
 }
 ```
+
+## Getting a Friend's ID
+
+To obtain your friend's ID, you need to follow these steps:
+
+1. In your Discord settings, go to the 'Appearance' tab.
+2. Scroll down to the 'Advanced' section.
+3. Turn on 'Developer Mode'. This will allow you to copy IDs.
+4. Exit out of your settings.
+5. Right-click on your friend's username.
+6. Click 'Copy ID'.
+
+The copied ID is what you will use as the `friend_id` in the `friends` dictionary.
 
 ## Getting your Discord Token
 
